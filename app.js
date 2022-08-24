@@ -7,10 +7,3 @@ while(saludo != "Hola" && saludo != "hola"){
 }
 
 alert("Buenos dias");
-
-/* while (nombre != "ESC" && nombre != "esc" ) {
-    saludo  = nombre + " ";
-    nombre = prompt("Ingrese Nombr o ESC para interrumpir");
-}
-
-alert(texto); */
