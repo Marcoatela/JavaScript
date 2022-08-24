@@ -1,9 +1,11 @@
-let i = 0;
+let edad = prompt("Ingrese su edad")
 
-
-while(saludo != "Hola" && saludo != "hola"){
-    var saludo = prompt("Salude para ingresar");
-    i++;
+function manejar(){
+    if(edad >=18)
+    return alert("Puede manejar")
+    ;else
+    return alert("No puede manejar");
+    
 }
 
-alert("Buenos dias");
+manejar();
