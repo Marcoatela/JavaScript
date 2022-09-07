@@ -1,11 +1,13 @@
-let edad = prompt("Ingrese su edad")
+const vino = {
+    id: 1,
+    bodega: "Luigi Bosca",
+    cosecha: 2010,
+    precio: 1750,
+    variedad: "Malbec",
+    disponible : true,
+    oferta:["Descuento 15%", "Envio gratis"],
+};
 
-function manejar(){
-    if(edad >=18)
-    return alert("Puede manejar")
-    ;else
-    return alert("No puede manejar");
-    
-}
+const {bodega, precio, variedad, oferta} = vino;
 
-manejar();
+console.log(bodega, variedad, precio, oferta[1]);
