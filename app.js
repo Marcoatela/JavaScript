@@ -1,4 +1,4 @@
-
+/* 
 
 const vinos = [
     {nombre: "Pispi", bodega: "Mosquita Muerta", variedad: "Malbec", año: 2010, precio: 1600},
@@ -30,4 +30,17 @@ function precioVino(){
 }
 
 
-precioVino();
+precioVino(); */
+
+const btnAgregar = document.querySelector(".btn-secondary")
+const span = document.getElementById('span')
+let contador = 0;
+
+
+
+btnAgregar.addEventListener('click',() => {
+    console.log('Agregaste producto al carrito')
+    contador++
+    span.textContent = contador
+    
+})

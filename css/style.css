@@ -1,0 +1,32 @@
+main{
+    height: 80%;
+}
+
+.producto{
+    height: 350px;
+    padding: 5px;
+    background-color: rgb(233, 233, 233);
+    border: 1px solid black;
+}
+
+header{
+    height: 200px;
+}
+
+nav{
+    height: 100px;
+}
+
+.btn:hover{
+    background-color: rgb(56, 1, 24);
+    color: white;
+    
+}
+
+footer{
+    background-color: rgb(56, 1, 24);
+    height: 200px;
+    margin-top: 80px;
+
+   
+}
