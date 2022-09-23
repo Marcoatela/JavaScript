@@ -52,3 +52,4 @@ function stock(){
 
 let sinStock = document.getElementById("sinstock");
 console.log(sinStock.innerHTML);
+sinStock.addEventListener('click', stock);
