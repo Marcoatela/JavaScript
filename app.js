@@ -43,4 +43,12 @@ btnAgregar.addEventListener('click',() => {
     contador++
     span.textContent = contador
     
-})
+  
+}); 
+
+function stock(){
+    alert("Producto sin stock")
+}
+
+let sinStock = document.getElementById("sinstock");
+console.log(sinStock.innerHTML);
